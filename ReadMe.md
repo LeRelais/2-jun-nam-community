@@ -66,6 +66,7 @@ Week3의 과제로 교육 과정에서 제공된 figma의 디자인을 HTML, CSS
 
   - 회원가입 - 이메일 에러
   <br>
+  
 ![Image](https://github.com/user-attachments/assets/e311fb3e-28a8-4667-b015-c9efb4c5f9a4)
 <br>
 
