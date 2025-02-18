@@ -1,0 +1,173 @@
+*{
+    background-color: #f4f5f7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    height: clamp(60vh, 100vh, 100vh); 
+    width: clamp(60vw, 100vw, 100vw);
+    overflow-y:auto;
+}
+
+.index-title{
+    margin: 2vh;
+}
+
+.index-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5vh;
+    margin: 1vh;
+}
+
+.index-header img{
+    position: absolute;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+
+.index-header img:hover{
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    display:none;
+    position: absolute;
+    top: 5vh;
+    margin-left: 30vw;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+    width: 150px;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu ul{
+    list-style: none;
+}
+
+.dropdown-menu li{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: lightgrey;
+}
+
+.dropdown-menu li a{
+    background-color: lightgrey;
+    text-decoration-line: none;
+    color: black;
+}
+
+.index-body{
+    min-height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-title p{
+    display: block;
+    text-align: center;
+}
+
+.index-create-post-button{
+    display: flex;
+    justify-content: flex-end;
+    height: 3vh;
+    width: 40%;
+    margin: 2vh 0 2vh 1vh;
+}
+
+.index-create-post-button button{
+    background-color: #ACA0EB;
+    color: white;
+    text-align: center;
+    align-items: flex-end;
+    border-color: transparent;
+    border-radius: 3rem;
+    height: 3vh;
+    width: 20%;
+    font-weight: bold;
+}
+
+.index-create-post-button :hover{
+    background-color: #7F6AEE;
+    cursor: pointer;
+}
+
+.post-card {
+    background-color: white;
+    width: 40%;
+    min-height: 14vh;
+    margin-left: 35vw;
+    border-radius: 12px;
+    margin: 1vh 0 1vh 0;
+}
+
+.post-card :hover{
+    cursor: pointer;
+}
+
+.post-title {
+    background-color: white;
+    margin: 1vh;
+    padding-top: 1vh;
+}
+
+.post-meta, .post-meta * {
+    display: flex;
+    justify-content: left;
+    background-color: transparent;
+}
+
+.post-meta{
+    margin: 1vh;
+}
+
+.post-date{
+    margin-left: auto;
+}
+
+.post-meta span{
+    margin-right: 1vh;
+    font-size: 0.5em;
+}
+
+.divider {
+    background-color: #f4f5f7;
+    height: 1px;
+}
+
+.post-author{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 1vh;
+}
+
+.author-profile {
+    width: 2em;
+    height: 2em;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
+
+.author-name {
+    background-color: white;
+    font-weight: bold;
+    margin: 1vh;
+}

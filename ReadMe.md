@@ -7,16 +7,31 @@ Week3의 과제로 교육 과정에서 제공된 figma의 디자인을 HTML, CSS
 <br>
 
 # 프로그램 계층도
--
--
--
--
--
--
--
--
--
--
+- createPost.html
+- createPost.css
+- createPost.js
+- editPassword.html
+- editPassword.css
+- editPassword.js
+- editPost.html
+- editPost.css
+- editPost.js
+- editProfile.html
+- editProfile.css
+- editProfile.js
+- index.js
+- index.css
+- index.html
+- login.html
+- login.css
+- login.js
+- post.html
+- post.css
+- post.js
+- signUp.html
+- signUp.css
+- signUp.js
+
 
 
 <br>
@@ -32,7 +47,9 @@ Week3의 과제로 교육 과정에서 제공된 figma의 디자인을 HTML, CSS
 
   - 로그인 - 이메일 에러
   <br>
+
   ![Image](https://github.com/user-attachments/assets/b87c8ece-8057-4d0e-b5a6-fa13bc746d9f)
+  <br>
 
   - 로그인 - 비밀번호 에러
     ![Image](https://github.com/user-attachments/assets/a1593352-e884-4baa-8f44-a541eba46fe2)
@@ -54,18 +71,25 @@ Week3의 과제로 교육 과정에서 제공된 figma의 디자인을 HTML, CSS
 
   - 회원가입 - 비밀번호 에러
    <br>
+
    ![Image](https://github.com/user-attachments/assets/3770f2a2-c26a-499b-91b7-cc12ac3ecef6) 비밀번호 에러
   <br>
+
   - 회원가입 - 비밀번호 에러2
    <br>
+
    ![Image](https://github.com/user-attachments/assets/03949bda-5c41-4306-8d2c-a4209a9ebcff)
   <br>
+
   - 회원가입 - 비밀번호확인 에러
    <br>
+
    ![Image](https://github.com/user-attachments/assets/e6d05291-57f4-4401-a633-5e6ad32ca82c)
   <br>
+
   - 회원가입 - 유효성 통과
    <br>
+
    ![Image](https://github.com/user-attachments/assets/b9951280-c130-4402-ab95-709956185136)
   <br>
 
